@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ics45c/projects/matrix/app/calculations.cpp
+iostream
+-
+
+/home/ics45c/projects/matrix/app/calculations.hpp
+
+/home/ics45c/projects/matrix/app/input.cpp
+iostream
+-
+
+/home/ics45c/projects/matrix/app/input.hpp
+
+/home/ics45c/projects/matrix/app/main.cpp
+iostream
+-
+input.hpp
+/home/ics45c/projects/matrix/app/input.hpp
+output.hpp
+/home/ics45c/projects/matrix/app/output.hpp
+calculations.hpp
+/home/ics45c/projects/matrix/app/calculations.hpp
+
+/home/ics45c/projects/matrix/app/output.cpp
+iostream
+-
+
+/home/ics45c/projects/matrix/app/output.hpp
+

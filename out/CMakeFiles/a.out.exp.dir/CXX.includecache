@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ics45c/projects/matrix/app/calculations.cpp
+iostream
+-
+
+/home/ics45c/projects/matrix/app/input.cpp
+iostream
+-
+
+/home/ics45c/projects/matrix/app/output.cpp
+iostream
+-
+
